@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/click_me_to_nest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="SwipeNest"
+            android:gravity="center"
+            android:background="@drawable/button_bg"
+            />
+
+        <TextView
+            android:id="@+id/click_me_to_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="SwipeRefresh"
+            android:background="@drawable/button_bg"
+            />
+
+
+        <TextView
+            android:id="@+id/click_me_to_adapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Adapter"
+            android:background="@drawable/button_bg"
+            />
+
+
+        <TextView
+            android:id="@+id/click_me_to_swipe_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Adapter"
+            android:background="@drawable/button_bg"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
